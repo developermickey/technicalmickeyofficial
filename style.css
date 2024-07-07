@@ -269,8 +269,8 @@ body::-webkit-scrollbar {
         margin-bottom: 0rem;
     }
     .row .col h1 {
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+        font-size: 2rem;
+        line-height: 3rem;
     }
 
     .btn-group {
@@ -443,6 +443,9 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 768px) {
+    html, body {
+        background: url(./img/mobile-bg.svg);
+    }
     .student-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -452,6 +455,7 @@ body::-webkit-scrollbar {
     .container {
         min-height: 50vh;
     }
+
 }
 
 
@@ -541,3 +545,4 @@ body::-webkit-scrollbar {
     font-weight: 600;
     color: #4F6F52;
 }
+
