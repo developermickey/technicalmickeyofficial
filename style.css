@@ -452,9 +452,11 @@ body::-webkit-scrollbar {
     .student-grid img {
         width: 80px;
     }
-    /* .container {
+    .container {
         min-height: 50vh;
-    } */
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
 }
 
