@@ -496,36 +496,36 @@ body::-webkit-scrollbar {
     padding-bottom: 3rem;
     position: relative;
 }
-#footer .top .footer-section {
+#footer .top .footer-container {
     display: flex;
     gap: 1.3rem;
     flex-direction: column;
 }
-#footer .top .footer-section h3 {
+#footer .top .footer-container h3 {
     display: flex;
     align-items: center;
     gap: 0.4rem;
     cursor: pointer;
     color: #4F6F52;
 }
-#footer .top .footer-section .logo {
+#footer .top .footer-container .logo {
     width: 40px;
     height: 40px;
 }
-#footer .top .footer-section h3 {
+#footer .top .footer-container h3 {
     font-size: 1.1rem;
 }
-#footer .footer-section .socials a i {
+#footer .footer-container .socials a i {
     font-size: 1.3rem;
     color: #4F6F52;
 }
-#footer .top .footer-section .options {
+#footer .top .footer-container .options {
     display: flex;
     flex-direction: column;
     gap: 1.05rem;
     margin-top: 0.4rem;
 }
-#footer .top .footer-section .options a {
+#footer .top .footer-container .options a {
     font-weight: 300;
     font-size: 1rem;
     text-decoration: none;
