@@ -190,11 +190,11 @@ body::-webkit-scrollbar {
 }
 
 .stats-grid {
-    width: 84%;
+    width: 100%;
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0rem;
+    gap: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
