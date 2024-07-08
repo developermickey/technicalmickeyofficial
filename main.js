@@ -16,8 +16,9 @@ gsap.to("#navbar", {
   backgroundColor: "#dadada",
   scrollTrigger: {
     trigger: "#page",
-    start: "bottom center",
+    start: "bottom 80%",
     toggleClass: "scrolled",
     scrub: true,
+    // markers: true
   },
 });
